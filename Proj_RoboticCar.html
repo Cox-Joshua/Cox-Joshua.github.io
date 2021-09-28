@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Joshua Cox E-Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+									<a href="index.html" class="logo"><strong>Joshua Cox</strong> E-Portfolio</a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/joshua-cox-07a881182/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Image Templates
+							<h3>Image</h3>
+
+							<h4>Fit</h4>
+							<span class="image fit"><img src="images/pic11.jpg" alt="" /></span>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+									<!-- Break
+									<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+									<!-- Break
+									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+
+							<h4>Left &amp; Right</h4>
+							<p><span class="image left"><img src="images/pic01.jpg" alt="" /></span> tesque praesent.</p>
+							<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span> pellentesque praesent.</p>
+							-->
+
+							<!-- Title + Abstract -->
+								<section>
+									<header class="main">
+										<h1>Robotic Car</h1>
+									</header>
+									
+									<!-- Optional Banner Image -->
+									<!-- <span class="image main"><img src="images/iss1.png"/></span> -->
+									<p style="font-size:18px"> <span class="image left"><img src="images/RoboticCar2.jpg" height="200"/></span>
+										<br>
+										For this project, I was interested in building my own robotic car. My goal was to be able to control it with an infrared remote. I was able
+										to base the foundation of the car off the "ELEGOO UNO Robotic Car Kit", pictured left. I wanted to continue building on my basic knowledge
+										of manipulating a microcontroller like an Arduino Uno. This would also expand my knowledge relating to sending/receiving signals. I
+										wanted to get some more hands-on experience with robots. Albiet quite basic experience, I think this project achieved that.
+									</p>
+								</section>
+
+							<!-- Project Details -->
+								<section>
+									<h2> Project Details </h2>
+									<p style="font-size:17px">
+									</p>
+									
+									<h4> Step 1: How do you control a simple DC motor? </h4>
+									<p style="font-size:17px"> <span class="image right"><img src="images/RoboticCar1.jpg" height="300" /></span>
+										<br>
+										<br>
+										First, I had to learn how to control a single motor that would drive a wheel. This required a quick review of sending HIGH and LOW signals
+										through a microcontroller in order to power the motor in different ways. I ended up not using the Arduino Uno in this step in order to strictly
+										test the motor initially. Flipping on the battery box would turn the motor on. This process also utilized an H-bridge which allowed me to
+										switch the rotation direction of the motor depending on which voltages are HIGH and LOW. Pictured to the right is a low-fidelity prototype
+										setup to test the rotation of a single motor. In this step I also learned I needed to power the H-bridge seperately. The HIGH and LOW input
+										voltages to the H-bridge would be controlled by the Arduino in the future
+										<br>
+										<br>
+										<br>
+									</p>
+
+									<hr class="minor" />
+									<h4> Step 2: How do you control 4 DC motors? </h4>
+									<p style="font-size:17px"> <span class="image left"><img src="images/RoboticCar3.jpg" height="260" /></span>
+										<br>
+										<br>
+										After the previous step, upgrading to 4 motors was not that challenging. This is where I began working on the Arduino logic. I coded in
+										functions that changes which direction the wheels are spinning for different scenarios. This meant I needed a function for turning the car
+										each direction, as well as going forward or backward. I also had another challenge when learning how to control all 4 motors with a single
+										H-bridge. Pictured left is another test setup to ensure the wheels were turning in the correct direction (wires not attached for clarity)
+										<br>
+										<br>
+									</p>
+
+									<hr class="minor" /> <span class="image right"><img src="images/RoboticCar4.jpg" height="200" /></span>
+									<h4> Step 3: How do you send signals to the car? </h4>
+									<p style="font-size:17px">
+										<br>
+										In this next step, I experimented with an infrared remote and receiver, similar to the one pictured right. This required me to look up
+										the pin functions for the receiver and figure out how to connect it to the Arduino. It also required a lot of troubleshooting as not
+										all IR signal codes are the same across devices. I would print the current signal being sent to the receiver and use this signal code to change
+										the motor rotations accordingly.
+										<br>
+									</p>
+								</section>
+							
+							<!-- Takeaways -->
+								<section> 
+									<h2> <a id="the future">Takeaways</a> </h2>
+									<p style="font-size:17px">
+										Ultimately, I learned much about the process of working with Arduino code and the logic involved in controlling motors based on commands
+										received. In this case, the "commands" correspond to the IR signal codes sent from the wireless remote. Below are some core takeaways
+										I internalized thanks to this project. I didn't end up adding some extra sensors the ELEGOO car had, such as a distance sensor, but I
+										still improved my technical skills regardless.
+									</p>
+
+									<div class="row">
+										<div class="col-6 col-12-small">
+
+											<!-- <ul>
+												<li>Basic Arduino library code</li>
+												<li>How an H-bridge works and how to use it to control motors</li>
+												<li>How an IR receiver works and how to use it to change the motor outputs</li>
+												<li>More experience with breadboards outside of class</li>
+												<li>How to rapidly prototype setups that affect the design process</li>
+											</ul> -->
+
+											<ul class="alt">
+												<li>Basic Arduino library code</li>
+												<li>How an H-bridge works and how to use it to control motors</li>
+												<li>How an IR receiver works and how to use it to change the motor outputs</li>
+												<li>More experience with breadboards outside of class</li>
+												<li>How to rapidly prototype setups that affect the design process</li>
+											</ul>
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="technicalteams.html">Technical Teams</a></li>
+										<li><a href="personalprojects.html">Personal Projects</a></li>
+										<!-- <li><a href="classwork.html">Classwork</a></li> -->
+										<li><a href="resume.html">Resume</a></li>
+
+										<!-- Submenu example
+										<li>
+											<span class="opener">Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li> -->
+										
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">joshua.cox.school@gmail.com</a></li>
+										<li class="icon solid fa-phone">(815)-543-7082</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p> Website template: <a href="https://html5up.net/editorial">Editorial</a> from <a href="https://html5up.net">HTML5 UP</a></p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
