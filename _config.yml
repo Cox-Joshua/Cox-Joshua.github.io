@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Joshua Cox EPortfolio # the website title (if blank, full name will be used instead)
+title: Joshua Cox # the website title (if blank, full name will be used instead)
 first_name: Joshua
 middle_name: 
 last_name: Cox
@@ -193,6 +193,7 @@ exclude:
   - vendor
   - _posts/
   - _pages/blog.md
+  - _news/
 keep_files:
   - CNAME
   - .nojekyll
