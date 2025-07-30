@@ -110,6 +110,20 @@ ninja.data = [{
           window.open("mailto:%6A%67%63%6F%78%32@%69%6C%6C%69%6E%6F%69%73.%65%64%75", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/joshua-cox-07a881182", "_blank");
+        },
+      },{
+        id: 'social-hca_lab',
+        title: 'Hca_lab',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://thehcalab.web.illinois.edu/", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
