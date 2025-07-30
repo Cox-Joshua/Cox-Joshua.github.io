@@ -7,11 +7,11 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Master of Science in Mechanical Engineering</p>
+    <p>University of Illinois Urbana-Champaign</p>
+    <p>Human-Centered Autonomy Lab</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,9 +29,14 @@ latest_posts:
 
 Hello! My name is Joshua Cox and welcome to my e-portfolio! I am an engineering student, lifelong learner, and owner of many hobbies. Feel free to browse the various pages here to learn a little more about me and some of my work.
 
-I have an will forever be interested in all things space technology.
+I studied as a mechanical engineer, but additionally delved into related fields like computer science, electrical and computer engineering, and controls. Throughout my studies, I have joined various student teams and held an assortment of engineering jobs. These experiences have guided me on what areas of engineering and science I wish to pursue. Turns out, I like a great deal of it! Programming microcontrollers, studying control systems, CAD design, computer vision, rapid prototyping, coding projects - I've enjoyed all of these.
 
-I am currently looking for employment opportunites starting January 2026 and onward!
+I am interested in all things space robotics, space technology, and any science that can be used to enable other engineers or scientists. I used to want to work on one specific thing: mars rovers at the Jet Propulsion Laboratory. But as I matured through my studies, I realized how the knowledge I was exposed to could be used in so many different ways.
+
+I am currently looking for employment opportunites starting January 2026 and onward. I hope to utilize the many engineering skills I've picked up to aid a project oriented team. I like doing my part, assisting others, and most of all learning new things! I'm a swiss army knife engineer, and if you need me to learn something new I am all ears, eyes, and hands.
+ 
+Please feel free to reach out to me using the links below for any and all inquiries.
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
