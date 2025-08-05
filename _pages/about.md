@@ -33,7 +33,7 @@ I studied as a mechanical engineer, but additionally delved into related fields 
 
 I am interested in all things space robotics, space technology, and any science that can be used to enable other engineers or scientists. Learning more about the universe's mysteries has always interested me and drove me to become a better engineer. I hope in my lifetime to push our knowledge of the unknown forward in any capacity.
 
-I am currently looking for entry level employment opportunites starting January 2026 and onward. I hope to utilize the many engineering skills I've picked up to aid a project oriented team. I like doing my part, assisting others, and most of all learning new things! I'm a swiss army knife engineer, and if you need me to learn something new I am all ears, eyes, and hands.
+I am currently looking for entry level employment opportunities starting January 2026 and onward. I hope to utilize the many engineering skills I've picked up to aid a project oriented team. I like doing my part, assisting others, and most of all learning new things! I'm a swiss army knife engineer, and if you need me to learn something new I am all ears, eyes, and hands.
  
 Please feel free to reach out to me using the links below or at jgcox2@illinois.edu for any and all inquiries.
 
