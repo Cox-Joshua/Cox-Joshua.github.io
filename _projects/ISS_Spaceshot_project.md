@@ -2,7 +2,7 @@
 layout: page
 title: Spaceshot
 description: another without an image
-img:
+img: assets/img/9.jpg
 importance: 3
 category: Illinois Space Society
 ---
