@@ -77,8 +77,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
+            },},{id: "projects-microg",
+          title: 'MicroG',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_MicroG_project/";
@@ -87,8 +87,8 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_SG_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
+            },},{id: "projects-spaceshot",
+          title: 'Spaceshot',
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_Spaceshot_project/";
