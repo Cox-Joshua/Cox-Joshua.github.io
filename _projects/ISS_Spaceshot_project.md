@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Spaceshot
 description: another without an image
 img:
 importance: 3
-category: fun
+category: Illinois Space Society
 ---
 
 Every project has a beautiful feature showcase page.
