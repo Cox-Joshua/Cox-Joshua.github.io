@@ -3,36 +3,27 @@
     "name": "Joshua Cox",
     "email": "jgcox2@illinois.edu",
     "phone": "(815) 543-7082",
-    "url": "https://cox-joshua.github.io",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    }
+    "url": "https://cox-joshua.github.io"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Engineering System Design Lab",
+      "position": "Embedded Systems Engineer Intern",
+      "url": "https://systemdesign.illinois.edu/",
+      "startDate": "2024-05",
+      "endDate": "2024-08",
+      "summary": "Testing words and new lines: \nSecond line"
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Illinois Space Society",
+      "location": "Urbana-Champaign Area",
+      "position": "General Volunteer",
+      "url": "https://www.illinoisspacesociety.org/about-edout",
+      "startDate": "2019-01",
+      "endDate": "2022-12",
+      "summary": "Summary"
     }
   ],
   "education": [
@@ -42,8 +33,8 @@
       "url": "https://illinois.edu/",
       "area": "Mechanical Engineering",
       "studyType": "Master of Science",
-      "startDate": "August 2018",
-      "endDate": "December 2022"
+      "startDate": "2018-08",
+      "endDate": "2022-12"
     },
     {
       "institution": "University of Illinois Urbana-Champaign",
@@ -51,8 +42,8 @@
       "url": "https://illinois.edu/",
       "area": "Computer Science",
       "studyType": "Minor",
-      "startDate": "August 2018",
-      "endDate": "December 2022"
+      "startDate": "2018-08",
+      "endDate": "2022-12"
     },
     {
       "institution": "University of Illinois Urbana-Champaign",
@@ -60,8 +51,8 @@
       "url": "https://illinois.edu/",
       "area": "Mechanical Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "January 2023",
-      "endDate": "December 2025"
+      "startDate": "2023-01",
+      "endDate": "2025-12"
     }
   ],
   "awards": [
@@ -79,29 +70,56 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming Languages",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C/C++",
+        "MATLAB",
+        "Java",
+        "C#",
+        "Microsoft VBA"
       ]
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Software",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Simulink",
+        "PyTorch",
+        "Docker",
+        "Git",
+        "ROS",
+        "STM Studio",
+        "pygame",
+        "Godot",
+        "Unreal Engine",
+        "Unity",
+        "CARLA Simulation",
+        "Gazebo Simulation",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "STM32 Nucleo boards",
+        "TI C2000 MCU boards",
+        "Stretch3",
+        "UR3 Robot arm",
+        "CRS Robot arm",
+        "Arduino",
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "name": "CAD Software",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Solidworks",
+        "Creo Parametric",
+        "Fusion"
       ]
     }
   ],
