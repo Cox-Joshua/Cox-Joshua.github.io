@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-resume",
+          title: "resume",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
@@ -57,26 +57,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "projects-illinois-space-society",
           title: 'Illinois Space Society',
           description: "The best engineering student org on campus",
@@ -94,17 +74,17 @@ ninja.data = [{
               window.location.href = "/projects/ISS_SG_project/";
             },},{id: "projects-spaceshot",
           title: 'Spaceshot',
-          description: "Helping a multiyear project to reach space!",
+          description: "Helping a multiyear rocket project reach space!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_Spaceshot_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-6-dof-robotic-arm",
+          title: '6 DoF Robotic Arm',
+          description: "Building a DIY robotic arm",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Per_6DoFArm_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-robotic-car",
+          title: 'Robotic Car',
+          description: "Building a DIY robotic car",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Per_Car_project/";
             },},{
