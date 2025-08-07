@@ -1,9 +1,9 @@
 ---
 layout: page
 title: MicroG
-description: a project that redirects to another website
+description: Project team building a tool for astronaut use
 img: assets/img/9.jpg
-importance: 3
+importance: 7
 category: Illinois Space Society
 ---
 

@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Space Grant
-description: a project with a background image and giscus comments
+description: Freshman high-power rocketry team
 img: assets/img/9.jpg
-importance: 2
+importance: 6
 category: Illinois Space Society
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

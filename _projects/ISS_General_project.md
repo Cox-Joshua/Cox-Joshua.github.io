@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Spaceshot
-description: Helping a multiyear project to reach space!
+title: Illinois Space Society
+description: The best engineering student org on campus
 img: assets/img/9.jpg
-importance: 8
+importance: 9
 category: Illinois Space Society
 ---
 
