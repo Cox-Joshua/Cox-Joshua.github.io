@@ -11,28 +11,28 @@ ninja.data = [{
     },
   },{id: "nav-resume",
           title: "Resume",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "You can click the PDF button to download my usual 1-page resume. This page contains my resume in the growing [JSON format](https://jsonresume.org/). It contains more information than can fit on one page just FYI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/resume/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "Cool applications and experiences B)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "A Scout is helpful!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-hobbies",
           title: "Hobbies",
-          description: "For fun activities I participate in",
+          description: "...collecting hobbies is a hobby I hear",
           section: "Navigation",
           handler: () => {
             window.location.href = "/hobbies/";
@@ -64,36 +64,71 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-illinois-space-society",
-          title: 'Illinois Space Society',
-          description: "The best engineering student org on campus",
+            },},{id: "projects-wip-game-development",
+          title: '[WIP]Game Development',
+          description: "CS415",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cla_CS415_project/";
+            },},{id: "projects-wip-robot-dynamics-and-control",
+          title: '[WIP]Robot Dynamics and Control',
+          description: "ME446",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cla_ME446_project/";
+            },},{id: "projects-wip-computer-control-of-mechanical-systems",
+          title: '[WIP]Computer Control of Mechanical Systems',
+          description: "ME461",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cla_ME461_project/";
+            },},{id: "projects-wip-illinois-space-society",
+          title: '[WIP]Illinois Space Society',
+          description: "The best engineering student organization on campus",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_General_project/";
-            },},{id: "projects-microg",
-          title: 'MicroG',
+            },},{id: "projects-wip-microg",
+          title: '[WIP]MicroG',
           description: "Project team building a tool for astronaut use",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_MicroG_project/";
-            },},{id: "projects-space-grant",
-          title: 'Space Grant',
+            },},{id: "projects-wip-space-grant",
+          title: '[WIP]Space Grant',
           description: "Freshman high-power rocketry team",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_SG_project/";
-            },},{id: "projects-spaceshot",
-          title: 'Spaceshot',
+            },},{id: "projects-wip-spaceshot",
+          title: '[WIP]Spaceshot',
           description: "Helping a multiyear rocket project reach space!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_Spaceshot_project/";
-            },},{id: "projects-6-dof-robotic-arm",
-          title: '6 DoF Robotic Arm',
-          description: "Building a DIY robotic arm",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Per_6DoFArm_project/";
-            },},{id: "projects-robotic-car",
-          title: 'Robotic Car',
-          description: "Building a DIY robotic car",
+            },},{id: "projects-wip-robot-car",
+          title: '[WIP]Robot Car',
+          description: "Description",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Per_Car_project/";
+            },},{id: "projects-wip-6-dof-robotic-arm",
+          title: '[WIP]6 DoF Robotic Arm',
+          description: "Description",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Per_RobotArm_project/";
+            },},{id: "projects-wip-lunar-autonomy-challenge",
+          title: '[WIP]Lunar Autonomy Challenge',
+          description: "Description",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Res_LAC_project/";
+            },},{id: "projects-wip-reinforcement-expert-informed-learning",
+          title: '[WIP]Reinforcement Expert Informed Learning',
+          description: "Description",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Res_RL_project/";
+            },},{id: "projects-wip-wayfinding",
+          title: '[WIP]Wayfinding',
+          description: "Description",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Res_Wayfinding_project/";
+            },},{id: "projects-wip",
+          title: '[WIP]',
+          description: "Description",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project/";
             },},{
         id: 'social-email',
         title: 'email',
