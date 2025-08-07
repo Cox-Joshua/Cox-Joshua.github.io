@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "[WIP]Reinforcement Expert Informed Learning"
+title: "[WIP]Anomaly Detector Informed Learning"
 description: Description
 img: assets/img/9.jpg
 importance: 2
