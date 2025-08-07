@@ -3,7 +3,6 @@ layout: page
 title: MicroG
 description: a project that redirects to another website
 img: assets/img/9.jpg
-redirect: https://unsplash.com
 importance: 3
 category: Illinois Space Society
 ---
