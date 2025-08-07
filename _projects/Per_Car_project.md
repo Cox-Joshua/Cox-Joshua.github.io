@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Robotic Car
-description: Building a DIY robotic car
-img: assets/img/1.jpg
-importance: 8
+title: "[WIP]Robot Car"
+description: Description
+img: assets/img/9.jpg
+importance: 1
 category: Personal Projects
 ---
 

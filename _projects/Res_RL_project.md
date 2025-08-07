@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "[WIP]Illinois Space Society"
-description: The best engineering student organization on campus
+title: "[WIP]Reinforcement Expert Informed Learning"
+description: Description
 img: assets/img/9.jpg
-importance: 1
-category: Illinois Space Society
+importance: 2
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

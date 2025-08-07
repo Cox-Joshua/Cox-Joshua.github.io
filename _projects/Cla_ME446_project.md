@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "[WIP]Illinois Space Society"
-description: The best engineering student organization on campus
+title: "[WIP]Robot Dynamics and Control"
+description: ME446
 img: assets/img/9.jpg
 importance: 1
-category: Illinois Space Society
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

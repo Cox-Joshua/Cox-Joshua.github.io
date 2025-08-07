@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Space Grant
+title: "[WIP]Space Grant"
 description: Freshman high-power rocketry team
 img: assets/img/9.jpg
-importance: 6
+importance: 4
 category: Illinois Space Society
 ---
 

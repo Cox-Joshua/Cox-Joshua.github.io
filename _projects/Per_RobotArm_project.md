@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "[WIP]Illinois Space Society"
-description: The best engineering student organization on campus
+title: "[WIP]6 DoF Robotic Arm"
+description: Description
 img: assets/img/9.jpg
-importance: 1
-category: Illinois Space Society
+importance: 2
+category: Personal Projects
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "[WIP]Illinois Space Society"
-description: The best engineering student organization on campus
+title: "[WIP]Game Development"
+description: CS415
 img: assets/img/9.jpg
-importance: 1
-category: Illinois Space Society
+importance: 3
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Cool applications and experiences B)
 nav: true
 nav_order: 3
-display_categories: [Illinois Space Society, Personal Projects]
+display_categories: [Research, Illinois Space Society, Class Projects, Personal Projects]
 horizontal: false
 ---
 

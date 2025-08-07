@@ -1,9 +1,9 @@
 ---
 layout: page
-title: MicroG
+title: "[WIP]MicroG"
 description: Project team building a tool for astronaut use
 img: assets/img/9.jpg
-importance: 7
+importance: 3
 category: Illinois Space Society
 ---
 

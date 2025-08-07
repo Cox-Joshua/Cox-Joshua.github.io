@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 6 DoF Robotic Arm
-description: Building a DIY robotic arm
+title: "[WIP]Computer Control of Mechanical Systems"
+description: ME461
 img: assets/img/9.jpg
-importance: 9
-category: Personal Projects
+importance: 2
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

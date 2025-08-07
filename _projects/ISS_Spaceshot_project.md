@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Spaceshot
+title: "[WIP]Spaceshot"
 description: Helping a multiyear rocket project reach space!
 img: assets/img/9.jpg
-importance: 8
+importance: 2
 category: Illinois Space Society
 ---
 
