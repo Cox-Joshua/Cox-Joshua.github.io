@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Robotic Car
+description: Building a DIY robotic car
 img: assets/img/1.jpg
-importance: 3
-category: Illinois Space Society
+importance: 8
+category: Personal Projects
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spaceshot
-description: Helping a multiyear project to reach space!
+description: Helping a multiyear rocket project reach space!
 img: assets/img/9.jpg
 importance: 8
 category: Illinois Space Society

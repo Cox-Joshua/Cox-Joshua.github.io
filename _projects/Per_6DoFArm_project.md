@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: 6 DoF Robotic Arm
+description: Building a DIY robotic arm
 img: assets/img/9.jpg
-importance: 4
-category: fun
+importance: 9
+category: Personal Projects
 ---
 
 Every project has a beautiful feature showcase page.
