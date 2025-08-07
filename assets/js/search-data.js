@@ -109,16 +109,16 @@ ninja.data = [{
           description: "Description",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Per_RobotArm_project/";
+            },},{id: "projects-wip-anomaly-detector-informed-learning",
+          title: '[WIP]Anomaly Detector Informed Learning',
+          description: "Description",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Res_AnomDetector_project/";
             },},{id: "projects-wip-lunar-autonomy-challenge",
           title: '[WIP]Lunar Autonomy Challenge',
           description: "Description",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Res_LAC_project/";
-            },},{id: "projects-wip-reinforcement-expert-informed-learning",
-          title: '[WIP]Reinforcement Expert Informed Learning',
-          description: "Description",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Res_RL_project/";
             },},{id: "projects-wip-wayfinding",
           title: '[WIP]Wayfinding',
           description: "Description",
