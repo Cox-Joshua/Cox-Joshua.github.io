@@ -18,7 +18,7 @@
   "volunteer": [
     {
       "organization": "Illinois Space Society",
-      "location": "Urbana-Champaign Area",
+      "location": "Urbana-Champaign",
       "position": "General Volunteer",
       "url": "https://www.illinoisspacesociety.org/about-edout",
       "startDate": "2019-01",
@@ -29,30 +29,27 @@
   "education": [
     {
       "institution": "University of Illinois Urbana-Champaign",
-      "location": "Urbana, IL, USA",
       "url": "https://illinois.edu/",
       "area": "Mechanical Engineering",
       "studyType": "Master of Science",
+      "startDate": "2023-01",
+      "endDate": "2025-12"
+    },
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://illinois.edu/",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Science",
       "startDate": "2018-08",
       "endDate": "2022-12"
     },
     {
       "institution": "University of Illinois Urbana-Champaign",
-      "location": "Urbana, IL, USA",
       "url": "https://illinois.edu/",
       "area": "Computer Science",
       "studyType": "Minor",
       "startDate": "2018-08",
       "endDate": "2022-12"
-    },
-    {
-      "institution": "University of Illinois Urbana-Champaign",
-      "location": "Urbana, IL, USA",
-      "url": "https://illinois.edu/",
-      "area": "Mechanical Engineering",
-      "studyType": "Bachelor of Science",
-      "startDate": "2023-01",
-      "endDate": "2025-12"
     }
   ],
   "awards": [
