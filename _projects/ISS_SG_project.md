@@ -13,10 +13,10 @@ The competition has a special challenge goal each year. Our year (2018-2019), th
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/ISS_SG_project/4_updated_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/4_updated_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/ISS_SG_project/5_updated_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/5_updated_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,6 +39,17 @@ We were all devastated at losing the rocket, but our team banded together to bou
 The team went on to win second place in the competition. What’s funny is we did all that rushing for nothing, the competition launch was cancelled due to rain and we launched later in the summer.
 
 <div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/4_updated_6.png" title="example image" class="img-responsive rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/5_updated_6.png" title="example image" class="img-responsive rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Fins team hard at work. Right: One of the many epoxy-drying setups we fabricated.
+</div>
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/ISS_SG_project/2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -48,7 +59,7 @@ The team went on to win second place in the competition. What’s funny is we di
 </div>
 <div class="caption">
     Left: Team photo at second launch. Right: Min-D Mk. II post paint job.
-</div>
+</div> -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
