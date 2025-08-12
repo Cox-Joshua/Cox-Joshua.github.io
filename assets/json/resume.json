@@ -54,16 +54,22 @@
   ],
   "awards": [
     {
+      "title": "Rated Excellent Teacher by Students with Outstanding Ratings",
+      "date": "Spring 2023",
+      "awarder": "University of Illinois Urbana-Champaign",
+      "url": "https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent"
+    },
+    {
       "title": "Dean's List",
       "date": "Spring 2019",
       "awarder": "University of Illinois Urbana-Champaign"
     },
     {
-      "title": "Rated Excellent Teacher by Students with Outstanding Ratings",
-      "date": "Spring 2023",
-      "awarder": "University of Illinois Urbana-Champaign",
-      "url": "https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent"
+      "title": "Eagle Scout",
+      "date": "Spring 2018",
+      "awarder": "Scouts of America"
     }
+
   ],
   "skills": [
     {
