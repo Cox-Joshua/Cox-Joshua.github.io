@@ -7,6 +7,13 @@ importance: 4
 category: Illinois Space Society
 ---
 
+Space Grant, or NASA’s Space Grant Midwest High-Power Rocket Competition, was made purposely freshman only within Illinois Space Society (link here to general page). It served as an introductory team not only to high powered rocketry, but also to operating within a group, meeting new people, and utilizing the resources at the organization’s disposal.
+The competition has a special challenge goal each year. Our year (2018-2019), the goal was to construct a minimum-diameter rocket. We called it Min-D, and had a blast developing it. I joined the team building the physical rocket itself. Specifically, I helped with the meticulous process of fabricating and attaching the carbon fiber fins we decided on using.
+Our first test flight, we ended up sadly losing the rocket. Our GPS tracking failed and the chute didn’t deploy correctly. What we think happened is it simply drove itself 6 feet under the corn fields of our launch site. I still remember the whole team combing the fields for any sign of the rocket for at least an hour.
+We were all devastated at losing the rocket, but our team banded together to bounce back and rebuild it from scratch. This required cautious planning as we had a deadline coming up. I remember fondly the fins team expertly scheduled when to apply layers of epoxy to this second set of fins in order to fit it in all our schedules with finals happening at the same time.
+The team went on to win second place in the competition. What’s funny is we did all that rushing for nothing, the competition launch was cancelled due to rain and we launched later in the summer.
+
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
