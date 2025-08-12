@@ -24,18 +24,6 @@ The competition has a special challenge goal each year. Our year (2018-2019), th
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include path="assets/img/projects/ISS_SG_project/4_updated_9.png" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include path="assets/img/projects/ISS_SG_project/5_updated_7.png" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    No figure.liquid
-</div>
-
-<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/ISS_SG_project/5_updated_7.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
