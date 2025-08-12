@@ -13,7 +13,7 @@ The competition has a special challenge goal each year. Our year (2018-2019), th
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/ISS_SG_project/4_updated_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/4_updated_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/ISS_SG_project/5_updated_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -21,6 +21,30 @@ The competition has a special challenge goal each year. Our year (2018-2019), th
 </div>
 <div class="caption">
     Left: Fins team hard at work. Right: One of the many epoxy-drying setups we fabricated.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include path="assets/img/projects/ISS_SG_project/4_updated_9.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include path="assets/img/projects/ISS_SG_project/5_updated_7.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    No figure.liquid
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/5_updated_7.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_SG_project/4_updated_9.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    swap
 </div>
 
 Our first test flight, we ended up sadly losing the rocket. Our GPS tracking failed and the chute didn’t deploy correctly. What we think happened is it simply drove itself 6 feet under the corn fields of our launch site. I still remember the whole team combing the fields for any sign of the rocket for at least an hour.
