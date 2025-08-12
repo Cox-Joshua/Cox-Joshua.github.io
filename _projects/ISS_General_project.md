@@ -21,6 +21,3 @@ I met friends for life through ISS, and I am so appreciative of my fellow peers 
 <div class="caption">
     Illinois Space Society organization-wide photo.
 </div>
-
-
-{% endraw %}

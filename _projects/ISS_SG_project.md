@@ -58,5 +58,3 @@ The team went on to win second place in the competition. What’s funny is we di
 <div class="caption">
     Me with Min-D Mk. I.
 </div>
-
-{% endraw %}
