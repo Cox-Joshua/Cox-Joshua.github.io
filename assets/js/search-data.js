@@ -79,8 +79,8 @@ ninja.data = [{
           description: "ME461",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ME461_project/";
-            },},{id: "projects-wip-illinois-space-society",
-          title: '[WIP]Illinois Space Society',
+            },},{id: "projects-illinois-space-society",
+          title: 'Illinois Space Society',
           description: "The best engineering student organization on campus",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_General_project/";
@@ -89,8 +89,8 @@ ninja.data = [{
           description: "Project team building a tool for astronaut use",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_MicroG_project/";
-            },},{id: "projects-wip-space-grant",
-          title: '[WIP]Space Grant',
+            },},{id: "projects-space-grant",
+          title: 'Space Grant',
           description: "Freshman high-power rocketry team",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_SG_project/";
