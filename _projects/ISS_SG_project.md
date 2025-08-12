@@ -7,7 +7,7 @@ importance: 4
 category: Illinois Space Society
 ---
 
-Space Grant, or NASA’s Space Grant Midwest High-Power Rocket Competition, was made purposely freshman only within Illinois Space Society (link here to general page). It served as an introductory team not only to high powered rocketry, but also to operating within a group, meeting new people, and utilizing the resources at the organization’s disposal.
+Space Grant, or NASA’s Space Grant Midwest High-Power Rocket Competition, was made purposely freshman only within [Illinois Space Society](https://cox-joshua.github.io/projects/ISS_General_project/). It served as an introductory team not only to high powered rocketry, but also to operating within a group, meeting new people, and utilizing the resources at the organization’s disposal.
 
 The competition has a special challenge goal each year. Our year (2018-2019), the goal was to construct a minimum-diameter rocket. We called it Min-D, and had a blast developing it. I joined the team building the physical rocket itself. Specifically, I helped with the meticulous process of fabricating and attaching the carbon fiber fins we decided on using.
 
