@@ -16,10 +16,10 @@ My favorite lab to TA was always ME 461. There’s countless skills for the stud
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/Teading_TA/1.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/Teaching_TA/1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/Teading_TA/3.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/Teaching_TA/3.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -28,10 +28,10 @@ My favorite lab to TA was always ME 461. There’s countless skills for the stud
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/Teading_TA/2.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/Teaching_TA/2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/Teading_TA/4.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/Teaching_TA/4.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
