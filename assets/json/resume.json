@@ -7,12 +7,43 @@
   },
   "work": [
     {
+      "name": "University of Illinois Urbana-Champaign",
+      "position": "Controls Lab Teaching Assistant",
+      "startDate": "2023-01",
+      "endDate": "2025-12",
+      "summary": "Directly TA’d the lab section of numerous engineering classes related to controls, signals, and embedded systems. Took on a managerial role at times to teach other TAs material and their responsibilities, develop course work, redesign documentation, prepare class resources, and fix equipment as needed."
+    },
+    {
       "name": "Engineering System Design Lab",
       "position": "Embedded Systems Engineer Intern",
       "url": "https://systemdesign.illinois.edu/",
       "startDate": "2024-05",
       "endDate": "2024-08",
-      "summary": "Testing words and new lines: \nSecond line"
+      "summary": "Completed hardware and software tasks to develop a new testing setup for a hinge-integrated multifunctional structures for attitude control (MSAC) scheme for satellites utilizing piezoelectric strain actuators. Programmed software in C++ for STM32 microcontroller Nucleo-H755ZI-Q for the purpose of enabling advanced PWM signals, logging SD card data, and communicating with multiple accelerometers. Tested types of signal filters to produce sin signals from period-changing PWM signals as inputs for the actuators. Created various MATLAB scripts that analyzed signal frequency response and ensured proper signal generation."
+    },
+    {
+      "name": "Quartus Engineering",
+      "position": "Systems Systems Engineer Intern",
+      "url": "https://www.linkedin.com/company/quartus-engineering/",
+      "startDate": "2024-05",
+      "endDate": "2024-08",
+      "summary": "Tested flamethrower robot to find its most efficient parameters by discussing an in-house experimental setup with customer to ensure monetary, timeline, and tangible goals were met. Built and calibrated camera assemblies in a cleanroom by preparing future materials, adhering to a strict construction schedule, troubleshooting software issues as needed, and observing customer requests. Costed and designed a customer’s heavy lifter assembly and corresponding lift test tooling. Documented, assembled, organized, and cleanroom-tested the physical end product using an overhead crane."
+    },
+    {
+      "name": "Woodward, Inc.",
+      "position": "Mechanical Engineer Intern",
+      "url": "https://www.woodward.com/",
+      "startDate": "2021-06",
+      "endDate": "2021-08",
+      "summary": "Formulated internal investigation on failing components by coordinating with technicians, reviewing engineering requirements, and compiling information into a report in order to increase first pass yield. Verified new method of manufacturing air valve seals by performing temperature experiments and documenting data and process changes, which increased production fourfold. Produced an efficient webtool, where previously none existed, to track status of internal investigations and department item defects that helped managers solve issues faster to improve products. Defined proposal and procedure forms for vibration testing of actuators by analyzing the company’s experimental capabilities and the respective customer requirements."
+    },
+    {
+      "name": "Valmet",
+      "position": "Mechanical Engineer Intern",
+      "url": "https://www.valmet.com/",
+      "startDate": "2019-06",
+      "endDate": "2019-08",
+      "summary": "Constructed job instructions to execute tasks by communicating with machine technicians, photographing relevant steps, and writing succinct and accurate directions. Established Microsoft Excel macro to improve the processing of sensor data, which decreased operator error. Streamlined manufacturing process for suction roll product by composing detailed job instruction and clarifying construction steps, decreasing various customer lead times."
     }
   ],
   "volunteer": [
@@ -23,7 +54,7 @@
       "url": "https://www.illinoisspacesociety.org/about-edout",
       "startDate": "2019-01",
       "endDate": "2022-12",
-      "summary": "Summary"
+      "summary": "Volunteered for numerous educational outreach events to teach children in the greater Champaign-Urbana area about space, rocketry, and engineering. Assisted at yearly events such as Illinois Space Day and Engineering Open House. Maintained position of Logistics Lead for the 2019-2020 school year."
     }
   ],
   "education": [
@@ -69,7 +100,6 @@
       "date": "Spring 2018",
       "awarder": "Scouts of America"
     }
-
   ],
   "skills": [
     {
@@ -124,16 +154,6 @@
         "Creo Parametric",
         "Fusion"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Name",
-      "summary": "Summary",
-      "highlights": ["Highlight1", "Highlight2"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }

@@ -17,13 +17,14 @@ My favorite lab to TA was always ME 461. There’s countless skills for the stud
 ---
 
 ### Illinois Space Society Educational Outreach
-Through Illinois Space Society (try to link to projects page?), I had the opportunity on numerous occasions to assist with local space education thanks to the group’s educational outreach (EdOut) team. We would host events at local libraries, travel to local schools in surrounding towns, and even host Illinois Space Day (ISD). I also helped plan many events during the 2019-2020 school year as I held the position of Logistics Lead on the EdOut board.
+Through [Illinois Space Society](https://cox-joshua.github.io/projects/ISS_General_project/), I had the opportunity on numerous occasions to assist with local space education thanks to the group’s educational outreach (EdOut) team. We would host events at local libraries, travel to local schools in surrounding towns, and even host Illinois Space Day (ISD). I also helped plan many events during the 2019-2020 school year as I held the position of Logistics Lead on the EdOut board.
 
 ISD is a full-day event which promotes space and STEM education amongst elementary and middle school students. It consisted of engineering demos, a yearly guest speaker, and thoughtful talks and discussions.
 
 ISS also participates in Engineering Open House (EOH), which is a multi day event where students come to campus from all around to see engineering displays and innovations. I routinely volunteered for this event to help show off Illinois Space Society’s interesting projects.
 
 No matter the event, it was always a blast teaching about space to students of all ages. I am excited about science today thanks to those who opened my view to it as a child. I am forever grateful I got to do the same for those younger than me.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
