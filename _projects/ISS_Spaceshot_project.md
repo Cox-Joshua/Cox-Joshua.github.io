@@ -1,80 +1,75 @@
 ---
 layout: page
-title: "[WIP]Spaceshot"
+title: "Spaceshot"
 description: Helping a multiyear rocket project reach space!
 img: assets/img/projects/ISS_Spaceshot_project/6og.png
 importance: 2
 category: Illinois Space Society
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+My third and final technical team experience with [Illinois Space Society](https://cox-joshua.github.io/projects/ISS_General_project/) (ISS) was with the in-house team called Spaceshot. The goal of the team was to develop a rocket to reach the edge of space, also called the Kármán line, 100 kilometers above sea level. This is quite the feat---Spaceshot was planned to be a multiyear project from the jump. I joined when the team was first founded, so I got to help with an early prototype named Endurance. This was a precursor rocket to the teams first official one, you can read more about the history of the design on the current [Spaceshot web page](https://www.illinoisspacesociety.org/spaceshot).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+One cool thing about Endurance were these roll control flaps that we wanted to try out. I believe the idea was to try this in the earliest iteration as the team thought they would need them for the final rocket that reaches space. Essentially how they work is by extending or retracting via a rack-and-pinion mechanism according to an active control algorithm, mostly using sensor feedback from an onboard IMU. I mainly helped with these flaps, mostly with manufacturing and assembly. A fun memory I have of this time was spinning in an office chair with the flaps assembly to test if we had them sensing rotational velocity and correctly extending or retracting.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+It was quite enjoyable furthering skills and working on a project with so many people. The underclassmen I worked with always made me smile with the amount of knowhow and enthusiasm they brought. We got to successfully launch Endurance at the end of the semester, which is always a rewarding sight to see.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="" class="img-fluid rounded z-depth-1" %}
+<!-- smol left | big right -->
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/10.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/3.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Me holding an early prototype of the sample drum. Right: Micro-g team hard at work.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
+<!-- big left | smol right -->
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: Frame from test video of a diver testing our tool. Right: Early prototype of LeTo.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
+<!-- smol left | big right -->
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/4.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/9.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Left: Me holding an early prototype of the sample drum. Right: Micro-g team hard at work.
+</div>
 
-{% endraw %}
+<!-- big left | smol right -->
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/7.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/8.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Frame from test video of a diver testing our tool. Right: Early prototype of LeTo.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/ISS_Spaceshot_project/5og.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Illinois Space Society organization-wide photo.
+</div>
