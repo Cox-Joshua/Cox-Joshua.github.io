@@ -94,8 +94,8 @@ ninja.data = [{
           description: "Freshman high-power rocketry team",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_SG_project/";
-            },},{id: "projects-wip-spaceshot",
-          title: '[WIP]Spaceshot',
+            },},{id: "projects-spaceshot",
+          title: 'Spaceshot',
           description: "Helping a multiyear rocket project reach space!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_Spaceshot_project/";
