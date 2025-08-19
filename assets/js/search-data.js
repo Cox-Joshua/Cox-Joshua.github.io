@@ -84,8 +84,8 @@ ninja.data = [{
           description: "The best engineering student organization on campus",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_General_project/";
-            },},{id: "projects-wip-microg",
-          title: '[WIP]MicroG',
+            },},{id: "projects-micro-g-next",
+          title: 'Micro-g NeXT',
           description: "Project team building a tool for astronaut use",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_MicroG_project/";
