@@ -23,7 +23,7 @@ It was quite enjoyable furthering skills and working on a project with so many p
     </div>
 </div>
 <div class="caption">
-    Left: Me holding an early prototype of the sample drum. Right: Micro-g team hard at work.
+    Left: Me holding the roll control flaps system while spinning in a chair to test them. Right: Close-up of the rack-and-pinion mechanism.
 </div>
 
 <!-- big left | smol right -->
@@ -36,7 +36,7 @@ It was quite enjoyable furthering skills and working on a project with so many p
     </div>
 </div>
 <div class="caption">
-    Left: Frame from test video of a diver testing our tool. Right: Early prototype of LeTo.
+    Left: Avionics group huddle while assembling the entire stack. Right: Close-up of the avionics stack.
 </div>
 
 <!-- smol left | big right -->
@@ -49,7 +49,7 @@ It was quite enjoyable furthering skills and working on a project with so many p
     </div>
 </div>
 <div class="caption">
-    Left: Me holding an early prototype of the sample drum. Right: Micro-g team hard at work.
+    Left: Endurance getting ready to launch. Right: Endurance landing in style.
 </div>
 
 <!-- big left | smol right -->
@@ -62,7 +62,7 @@ It was quite enjoyable furthering skills and working on a project with so many p
     </div>
 </div>
 <div class="caption">
-    Left: Frame from test video of a diver testing our tool. Right: Early prototype of LeTo.
+    Left: Spaceshot team crowds around a recovered avionics stack. Right: Reading sensor data after the landing.
 </div>
 
 <div class="row">
@@ -71,5 +71,5 @@ It was quite enjoyable furthering skills and working on a project with so many p
     </div>
 </div>
 <div class="caption">
-    Illinois Space Society organization-wide photo.
+    Spaceshot Endurance launch group photo.
 </div>
