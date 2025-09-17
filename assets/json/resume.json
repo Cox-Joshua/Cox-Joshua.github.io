@@ -111,11 +111,12 @@
         "MATLAB",
         "Java",
         "C#",
-        "Microsoft VBA"
+        "Microsoft VBA",
+        "Bash Scripting"
       ]
     },
     {
-      "name": "Software",
+      "name": "Software & Tools",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Simulink",
@@ -124,26 +125,30 @@
         "Git",
         "ROS",
         "STM Studio",
-        "pygame",
+        "PyGame",
         "Godot",
         "Unreal Engine",
         "Unity",
         "CARLA Simulation",
         "Gazebo Simulation",
-        "LaTeX"
+        "LaTeX",
+        "OpenCV"
       ]
     },
     {
-      "name": "Hardware",
+      "name": "Hardware & Microcontrollers",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "STM32 Nucleo boards",
-        "TI C2000 MCU boards",
+        "STM32 (Nucleo)",
+        "TI C2000",
         "Stretch3",
-        "UR3 Robot arm",
-        "CRS Robot arm",
+        "UR3",
+        "CRS (Robot Arm)",
         "Arduino",
-        "Raspberry Pi"
+        "Raspberry Pi",
+        "ESP32",
+        "IMUs",
+        "Stereo Cameras"
       ]
     },
     {
@@ -153,6 +158,19 @@
         "Solidworks",
         "Creo Parametric",
         "Fusion"
+      ]
+    },
+    {
+      "name": "Other",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "3D Printing",
+        "Design",
+        "Rapid Prototyping",
+        "CAD",
+        "Oscilloscope Use",
+        "Technical Writing",
+        "Signal Filtering"
       ]
     }
   ]
