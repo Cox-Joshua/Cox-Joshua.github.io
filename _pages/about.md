@@ -28,9 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! My name is Joshua Cox and welcome to my e-portfolio! I am an engineering student, lifelong learner, and owner of many hobbies. Feel free to browse the various pages here (navigation at the top) to learn a little more about me and some of my work.
+Hello! My name is Joshua Cox and welcome to my e-portfolio! I am a M.S. mechanical engineering graduate, lifelong learner, and owner of many hobbies. Feel free to browse the various pages here (navigation at the top) to learn a little more about me and some of my work.
 
-First and foremost, I am looking for a job starting January 2026 or later! I am looking for entry level employment. I hope to utilize the many engineering skills I've picked up to aid a project oriented team. I like doing my part, assisting others, and most of all learning new things! I'm a swiss army knife engineer, and if you need me to learn something new, I am all ears, eyes, and hands.
+First and foremost, I am looking for fulltime employment! I hope to utilize the many engineering skills I've picked up to aid a project oriented team. I like doing my part, assisting others, and most of all learning new things! I'm a swiss army knife engineer, and if you need me to learn something new, I am all ears, eyes, and hands.
 
 I studied as a mechanical engineer, but additionally delved into related fields like computer science, electrical and computer engineering, and controls. Throughout my studies, I have joined various student teams and held an assortment of engineering jobs. These experiences have guided me on what areas of engineering and science I wish to pursue. Turns out, I like a great deal of it! The following are some tasks I’ve enjoyed at some point or another:
 
@@ -38,4 +38,4 @@ Coding games, programming microcontrollers, analyzing control systems and signal
 
 For a career, I am interested in all things space robotics, space technology, space exploration, and any science that can be used to enable other engineers or scientists. Learning more about the universe's mysteries has always interested me and drove me to become a better engineer. I hope in my lifetime to push our knowledge of the unknown forward in any capacity.
 
-Currently, I am finishing up my Master of Science degree in Mechanical Engineering this fall semester 2025. I am advised by [Professor Katie Driggs-Campbell](https://ece.illinois.edu/about/directory/faculty/krdc) in the [Human-Centered Autonomy Lab](https://thehcalab.web.illinois.edu/).
+I have just completed my Master of Science degree in Mechanical Engineering last fall 2025. I was advised by [Professor Katie Driggs-Campbell](https://ece.illinois.edu/about/directory/faculty/krdc) in the [Human-Centered Autonomy Lab](https://thehcalab.web.illinois.edu/).
