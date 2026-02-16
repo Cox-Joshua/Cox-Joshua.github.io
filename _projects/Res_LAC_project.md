@@ -18,7 +18,7 @@ Below is a photo dump of pictures I collected relating to my work. Please enjoy 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/2dsim1.png.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/2dsim1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/2dsim5.png" title="" class="img-fluid rounded z-depth-1" %}
@@ -112,23 +112,23 @@ Below is a photo dump of pictures I collected relating to my work. Please enjoy 
     </div>
 </div>
 
-<!-- <div class="row">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/qual_vins1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/sim1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-</div> -->
+</div>
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/Res_LAC_project/qual_vins1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/Res_LAC_project/sim1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
