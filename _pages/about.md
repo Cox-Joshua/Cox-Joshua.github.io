@@ -27,6 +27,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+[RESUME PAGE AND DOWNLOAD](https://cox-joshua.github.io/resume/)
+
+[THESIS DOWNLOAD](https://drive.google.com/file/d/1KxmyztrYJJoZc4iO3LYJCu1hseHLLNWa/view?usp=sharing)
 
 Hello! My name is Joshua Cox and welcome to my e-portfolio! I am a M.S. mechanical engineering graduate, lifelong learner, and owner of many hobbies. Feel free to browse the various pages here (navigation at the top) to learn a little more about me and some of my work.
 
@@ -38,4 +41,4 @@ Coding games, programming microcontrollers, analyzing control systems and signal
 
 For a career, I am interested in all things space robotics, space technology, space exploration, and any science that can be used to enable other engineers or scientists. Learning more about the universe's mysteries has always interested me and drove me to become a better engineer. I hope in my lifetime to push our knowledge of the unknown forward in any capacity.
 
-I have just completed my Master of Science degree in Mechanical Engineering last fall 2025. I was advised by [Professor Katie Driggs-Campbell](https://ece.illinois.edu/about/directory/faculty/krdc) in the [Human-Centered Autonomy Lab](https://thehcalab.web.illinois.edu/).
+I have just completed my Master of Science degree in Mechanical Engineering last fall 2025. I was advised by [Professor Katie Driggs-Campbell](https://ece.illinois.edu/about/directory/faculty/krdc) in the [Human-Centered Autonomy Lab](https://thehcalab.web.illinois.edu/). Feel free to [this thesis download link](https://drive.google.com/file/d/1KxmyztrYJJoZc4iO3LYJCu1hseHLLNWa/view?usp=sharing) or check out [this page](https://cox-joshua.github.io/projects/Res_LAC_project/) for details on my thesis!
