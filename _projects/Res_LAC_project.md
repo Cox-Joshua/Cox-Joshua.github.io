@@ -130,6 +130,7 @@ Below is a photo dump of pictures I collected relating to my work. Please enjoy 
     </div>
 </div> -->
 
+<!-- Template -->
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/.png" title="" class="img-fluid rounded z-depth-1" %}
@@ -141,5 +142,3 @@ Below is a photo dump of pictures I collected relating to my work. Please enjoy 
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div> -->
-
-{% endraw %}
