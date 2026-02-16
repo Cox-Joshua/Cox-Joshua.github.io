@@ -116,7 +116,7 @@ ninja.data = [{
               window.location.href = "/projects/Res_AnomDetector_project/";
             },},{id: "projects-wip-lunar-autonomy-challenge",
           title: '[WIP]Lunar Autonomy Challenge',
-          description: "Description",
+          description: "Competition to create an Autonomously Mapping Lunar Rover",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Res_LAC_project/";
             },},{id: "projects-wip-wayfinding",
