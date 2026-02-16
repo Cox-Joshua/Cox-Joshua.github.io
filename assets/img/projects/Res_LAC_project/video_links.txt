@@ -1,0 +1,4 @@
+disparity BM old - https://youtu.be/Nm5zaF2ERsY
+grid filtered disparity video - https://youtu.be/opfbKCPIZDs
+disparity final - https://youtu.be/iuJ11P1QpLY
+disparity BM tuned - https://youtu.be/HqXGlzC3D2E
