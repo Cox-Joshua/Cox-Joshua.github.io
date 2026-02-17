@@ -93,7 +93,7 @@ Below is a photo dump of pictures I collected relating to my work. Please enjoy 
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/pcl1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/pcl2.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/pcl2.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/pcl_comparison.png" title="" class="img-fluid rounded z-depth-1" %}
