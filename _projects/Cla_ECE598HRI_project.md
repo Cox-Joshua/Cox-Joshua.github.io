@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "[WIP]Game Development"
-description: CS415
+title: "[WIP]Human-Robot Interaction"
+description: ECE598HRI
 img: assets/img/9.jpg
 importance: 3
 category: Class Projects

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "[WIP]Game Development"
-description: CS415
+title: "[WIP]Mechanical Design II"
+description: ME371
 img: assets/img/9.jpg
-importance: 3
+importance: 2
 category: Class Projects
 ---
 
