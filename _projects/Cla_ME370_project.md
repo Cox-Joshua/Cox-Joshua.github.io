@@ -14,51 +14,51 @@ A core class to UIUC’s mechanical engineering curriculum, I learned so much fr
 <!-- triple pics centered -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_1.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/000.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_2.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/001.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_3.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/002.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <!-- double pics centered -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_4.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/003.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_5.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/004.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_6.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/005.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <!-- double pics centered -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_7.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/006.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_8.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/007.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <!-- double pics centered -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_9.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/008.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_10.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/009.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/me370_11.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/0ddd10.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
