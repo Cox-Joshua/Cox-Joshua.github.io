@@ -69,16 +69,26 @@ ninja.data = [{
           description: "CS415",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_CS415_project/";
-            },},{id: "projects-wip-robot-dynamics-and-control",
-          title: '[WIP]Robot Dynamics and Control',
-          description: "ME446",
+            },},{id: "projects-wip-computer-vision",
+          title: '[WIP]Computer Vision',
+          description: "ECE549",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Cla_ME446_project/";
-            },},{id: "projects-wip-computer-control-of-mechanical-systems",
-          title: '[WIP]Computer Control of Mechanical Systems',
-          description: "ME461",
+              window.location.href = "/projects/Cla_ECE549_project/";
+            },},{id: "projects-wip-human-robot-interaction",
+          title: '[WIP]Human-Robot Interaction',
+          description: "ECE598HRI",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Cla_ME461_project/";
+              window.location.href = "/projects/Cla_ECE598HRI_project/";
+            },},{id: "projects-wip-mechanical-design-i",
+          title: '[WIP]Mechanical Design I',
+          description: "ME370",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cla_ME370_project/";
+            },},{id: "projects-wip-mechanical-design-ii",
+          title: '[WIP]Mechanical Design II',
+          description: "ME371",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cla_ME371_project/";
             },},{id: "projects-illinois-space-society",
           title: 'Illinois Space Society',
           description: "The best engineering student organization on campus",
