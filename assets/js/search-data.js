@@ -79,13 +79,13 @@ ninja.data = [{
           description: "ECE598HRI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ECE598HRI_project/";
-            },},{id: "projects-wip-mechanical-design-i",
-          title: '[WIP]Mechanical Design I',
+            },},{id: "projects-mechanical-design-i",
+          title: 'Mechanical Design I',
           description: "ME370",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ME370_project/";
-            },},{id: "projects-wip-mechanical-design-ii",
-          title: '[WIP]Mechanical Design II',
+            },},{id: "projects-mechanical-design-ii",
+          title: 'Mechanical Design II',
           description: "ME371",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ME371_project/";
