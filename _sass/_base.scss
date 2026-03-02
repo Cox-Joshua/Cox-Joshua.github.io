@@ -1423,3 +1423,9 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Josh code
+.custom-img-height {
+  height: 300px; /* or any desired height */
+  object-fit: cover;
+}

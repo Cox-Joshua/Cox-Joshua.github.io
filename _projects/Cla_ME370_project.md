@@ -11,6 +11,16 @@ A core class to UIUC’s mechanical engineering curriculum, I learned so much fr
 
 
 
+<!-- experimental -->
+<div class="row align-items-stretch">
+  <div class="col-sm h-100">
+    {% include figure.liquid path="assets/img/projects/Cla_ME370/000.png" class="img-fluid rounded z-depth-1 custom-img-height" %}
+  </div>
+  <div class="col-sm h-100">
+    {% include figure.liquid path="assets/img/projects/Cla_ME370/001.png" class="img-fluid rounded z-depth-1 custom-img-height" %}
+  </div>
+</div>
+
 <!-- triple pics centered -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
