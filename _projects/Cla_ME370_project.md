@@ -14,10 +14,10 @@ A core class to UIUC’s mechanical engineering curriculum, I learned so much fr
 <!-- experimental -->
 <div class="row align-items-stretch">
   <div class="col-sm h-100">
-    {% include figure.liquid path="assets/img/projects/Cla_ME370/000.png" class="img-fluid rounded z-depth-1 custom-img-height" %}
+    {% include figure.liquid path="assets/img/projects/Cla_ME370/000.png" class="custom-img-height rounded z-depth-1" %}
   </div>
   <div class="col-sm h-100">
-    {% include figure.liquid path="assets/img/projects/Cla_ME370/001.png" class="img-fluid rounded z-depth-1 custom-img-height" %}
+    {% include figure.liquid path="assets/img/projects/Cla_ME370/001.png" class="custom-img-height rounded z-depth-1" %}
   </div>
 </div>
 
@@ -69,6 +69,6 @@ A core class to UIUC’s mechanical engineering curriculum, I learned so much fr
 <!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/0ddd10.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME370/010.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
