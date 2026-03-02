@@ -120,3 +120,24 @@ Below is a photo dump of pictures I collected relating to my work. Please enjoy 
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC_project/sim1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+<!-- Example for local video
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/your_video.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+  </div>
+</div> -->
+
+<!-- Example for YouTube/Vimeo -->
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E?si=X33q-_tjH0Lyvkes" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
