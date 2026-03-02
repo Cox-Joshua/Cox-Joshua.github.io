@@ -69,8 +69,8 @@ ninja.data = [{
           description: "CS415",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_CS415_project/";
-            },},{id: "projects-wip-computer-vision",
-          title: '[WIP]Computer Vision',
+            },},{id: "projects-computer-vision",
+          title: 'Computer Vision',
           description: "ECE549",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ECE549_project/";
