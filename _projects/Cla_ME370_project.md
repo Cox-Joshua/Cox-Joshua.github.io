@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "[WIP]Mechanical Design I"
+title: "Mechanical Design I"
 description: ME370
 img: assets/img/projects/Cla_ME370/008.png
 importance: 2
