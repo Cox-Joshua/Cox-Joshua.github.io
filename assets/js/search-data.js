@@ -64,8 +64,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-wip-game-development",
-          title: '[WIP]Game Development',
+            },},{id: "projects-game-development",
+          title: 'Game Development',
           description: "CS415",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_CS415_project/";
@@ -74,8 +74,8 @@ ninja.data = [{
           description: "ECE549",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ECE549_project/";
-            },},{id: "projects-wip-human-robot-interaction",
-          title: '[WIP]Human-Robot Interaction',
+            },},{id: "projects-human-robot-interaction",
+          title: 'Human-Robot Interaction',
           description: "ECE598HRI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cla_ECE598HRI_project/";
