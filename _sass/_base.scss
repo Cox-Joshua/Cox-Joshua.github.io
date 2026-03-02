@@ -1424,10 +1424,11 @@ figure.cover {
   }
 }
 
-// Josh code
-.custom-img-height {
-  height: 300px; /* fixed height for image */
-  width: 100%;   /* fill container width */
-  object-fit: cover;
-  display: block;
-}
+// // This was me trying to set a fixed height for images but it just crops them
+// I decided the default image stuff is fine, not going to fuss over it too much
+// .custom-img-height {
+//   height: 300px; /* fixed height for image */
+//   width: 100%;   /* fill container width */
+//   object-fit: cover;
+//   display: block;
+// }
