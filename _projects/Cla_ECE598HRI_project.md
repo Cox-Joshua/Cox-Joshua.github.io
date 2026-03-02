@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "[WIP]Human-Robot Interaction"
+title: "Human-Robot Interaction"
 description: ECE598HRI
 img: assets/img/projects/Cla_ECE598HRI/007.png
 importance: 3

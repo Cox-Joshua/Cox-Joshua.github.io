@@ -12,29 +12,29 @@ The final project in this class was quite hands-on and required the creation of 
 <!-- double pics centered -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/000.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/001.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+<!-- double pics centered -->
+<div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/002.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-
-<!-- double pics centered -->
-<div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/003.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/004.png" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 
 <!-- double pics centered -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/005.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/004.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/006.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Cla_ME371/005.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

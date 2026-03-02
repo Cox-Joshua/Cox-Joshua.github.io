@@ -11,22 +11,29 @@ In the fall of 2024, I decided to compete in the Lunar Autonomy Challenge, which
 
 Below is a photo/video dump of visuals I collected relating to my work. Please enjoy while I work on documenting everything.
 
-<!-- double centered -->
+
+<!-- single -->
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/Nm5zaF2ERsY" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/opfbKCPIZDs" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/Nm5zaF2ERsY" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<!-- double centered -->
+<!-- single -->
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/iuJ11P1QpLY" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/iuJ11P1QpLY" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E" class="img-fluid rounded z-depth-1" %}
+</div>
+<!-- single -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/opfbKCPIZDs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<!-- single -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
