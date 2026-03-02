@@ -109,16 +109,6 @@ ninja.data = [{
           description: "Helping a multiyear rocket project reach space!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ISS_Spaceshot_project/";
-            },},{id: "projects-wip-robot-car",
-          title: '[WIP]Robot Car',
-          description: "Description",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Per_Car_project/";
-            },},{id: "projects-wip-6-dof-robotic-arm",
-          title: '[WIP]6 DoF Robotic Arm',
-          description: "Description",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Per_RobotArm_project/";
             },},{id: "projects-wip-anomaly-detector-informed-learning",
           title: '[WIP]Anomaly Detector Informed Learning',
           description: "Description",
