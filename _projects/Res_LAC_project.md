@@ -177,6 +177,32 @@ Also at this time, I started develop my own tools and scripts in order to compar
 <!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/opfbKCPIZDs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The video shown in the previous figure.
+</div>
+
+<!-- triple pics centered -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/Nm5zaF2ERsY" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/iuJ11P1QpLY" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Three videos showing the old disparity map algorithm (left), the old algorithm properly tuned (middle), and the new SGBM algorithm tuned (right).
+</div>
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -184,34 +210,85 @@ Also at this time, I started develop my own tools and scripts in order to compar
     Different snapshots of the raw left front rover image (left column), final disparity map output (middle column), and point cloud (right column, colored by depth).
 </div>
 
+Now, I started experimenting more with the elevation data I was receiving. Skipping some details here, but the below images show my general process. I had fun managing this data and developing these scripts to create plots.
 
-
-
-
-
-[The rest is still a work in progress]
-
-<!-- single -->
+<!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/Nm5zaF2ERsY" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<!-- single -->
+<div class="caption">
+    (a) Raw elevation grid map data output from elevation mapping cupy. (b) The same data from (a) with the plot bounds set to the center 9 meter by 9 meter square. (c) Properly rotated elevation data to align with rover direction. (d) An example submission map that is built using all frames. This figure shows the first value that appears in each cell.
+</div>
+ 
+<!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/iuJ11P1QpLY" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<!-- single -->
+<div class="caption">
+    (a). Raw elevation of the center 9 meter by 9 meter square for some frame of data. (b) The accumulated submission area when keeping the first value that appears in each cell. (c) Same as (b) but allowing values to be updated when new elevation values are assigned to cells. (d) Submission region when applying a running average to each cell. (e) Same as (d) but running average values are only updated upon cells being overwritten.
+</div>
+
+With the updated architecture, I drove the rover in simulation to collect elevation data. Below is example data from a single trial, but I did perform many such experiments. I found all produced similar data with this solution.
+
+<!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/opfbKCPIZDs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<!-- single -->
+<div class="caption">
+    Final elevation grid map to be submitted for scoring.
+</div>
+
+<!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Final elevation error formed by subtracting the agent’s final elevation grid map with the ground truth information.
+</div>
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    (a). Ground truth elevation grid map. (b) The final elevation plot recorded by the rover agent. (c) Plot to visualize region for outliers to be removed due to the lander heigh being recorded. (d) Resulting map of the final elevation with outliers removed from the lander area. (e). Inpainted grid map to fill voids (f). Subplot (e) downsized to the final elevation grid map size. (g). Final elevation error. (h) Same as (g) with red cells signaling cells that would be as having a correct elevation per the competition guidelines.
+</div>
+
+
+I found that this solution performed poorly. Also, due to the elevation errors I found, I was not able to produce a working rock occupancy grid (which was required for the competition). In turn, rock obstacles could not be detected, and a final autonomous solution was not achievable. According to competition guidelines, this data would have only had a single scoring grid cell (of 3,600 total).
+
+Upon further inspection, it turns out a solely visual-inertial odometry solution for localization created many small elevation errors that stack up when running the rover.
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The IPEx pose overlaid the ground truth pose (circled in red) after the initializtion process in 6 different example trials, displayed in the ROS visualization tool.
+</div>
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The measured “body” frame of the IPEx rover, estimated from VINS-Mono, drifting from the ground truth pose.
+</div>
+
+Now these results may seem negative, but I was extremely happy with everything. I was happy to have followed through on a complex project and understand every bit of it. I had actually planned for ways to solve the issues I was having, but I simply needed to wrap up my progress at a stopping point in order to produce my thesis and graduate.
+
+Thank you for reading this far. I thoroughly enjoyed working on project, and I hoped you learned something along the way. If anyone out there ever wants to discuss this work, please feel free to contact me!
