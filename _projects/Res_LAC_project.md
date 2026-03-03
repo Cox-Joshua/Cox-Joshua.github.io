@@ -7,11 +7,25 @@ importance: 1
 category: Research
 ---
 
+---
+layout: page
+title: "Lunar Autonomy Challenge [WIP]"
+description: Competition to create an Autonomously Mapping Lunar Rover
+img: assets/img/projects/Res_LAC_project/ipex2.png
+importance: 1
+category: Research
+---
+
 [THESIS DOWNLOAD](https://drive.google.com/file/d/1KxmyztrYJJoZc4iO3LYJCu1hseHLLNWa/view?usp=sharing)
+
 The following post details my experience working on the Lunar Autonomy Challenge, which eventually became the basis for my thesis. Much of this is detailed in it, and can be found at the link above. This reading offers a bit more of my personal point of view.
+
 Beginning at the end of 2024, I founded and led a team within my lab (the [Human Centered-Autonomy Lab](https://thehcalab.web.illinois.edu/)) for the [Lunar Autonomy Challenge](https://lunar-autonomy-challenge.jhuapl.edu/) (LAC), a competition created by the collaboration between NASA, Caterpillar, Johns Hopkins University, and Embodied AI. This was the first time NASA ran this competition. Most of my labmates informed me this wouldn’t be their main focus for the future, so I ended up developing nearly the entire solution. That said, most all of my teammates lent me their ears and thoughts at many times throughout this process. I am forever grateful and appreciative for their guidance and input.
+
 The LAC challenged teams across the U.S. to simulate a lunar excavator mobile robot, the ISRU Pilot Excavator (IPEx), autonomously exploring the surface of the moon and mapping elevation in an area around a lunar lander. This would be achieved by focusing on solutions for navigation, mapping, and localization.
+
 As a rough timeline, our team developed a plan in November of 2024. I worked on it until the qualification deadline at the end of February of 2025. I was unable to complete a submittable solution at this point. From that time until mid-July 2025, I made small amounts of progress. I was not sure whether I wanted to pursue this subject more or research some other topics I was looking at during that time. Eventually, I chose to continue working on a solution and use the work for my thesis in order to graduate in the fall of 2025.
+
 This project allowed me to explore and improve my understanding of many areas inherent to exploration rovers. I dedicated hours researching topics novel to me from the ground up. I gained hands on experience in:
 - Path planning techniques for autonomous navigation
 - Object detection and avoidance algorithms, especially using grid map data
@@ -20,6 +34,7 @@ This project allowed me to explore and improve my understanding of many areas in
 - Creating and reading Dockerfiles and Docker environments
 - Creating scripts to display, debug, and animate grid map data collected
 - Odometry solutions and packages, specifical visual-inertial odometry ones
+
 The figure below shows the initial approach. We would use the software package called “Elevation Mapping CuPy” in order to map the terrain. It requires a point cloud of the surrounding area as well as ROS-style coordinate frames for localization. We also wanted to use a segmentation model with the mapping data in order to properly identify obstacles. This data would be used in the navigation stack, consisting of a global planner optimizing for unexplored areas of the terrain and a local planner for obstacle avoidance. You’ll note we wanted to use another neural network that estimated our battery usage given a planned path. This ended up not being important for the qualifier round as no battery recharging was necessary for the limited mission. For localization, we relied on April tags attached to the central lunar lander, however we wanted to develop a different method down the line using keypoints in order to gain bonus points.
 
 <!-- single pic -->
@@ -83,9 +98,8 @@ With this new plan in hand, I began developing our code.
     </div>
 </div>
 <div class="caption">
-    Disparity map (left) and point cloud (right) generated from stereo image proc ROS package.
+    Example grids shown in the “AGENT EXPLORE” mode. The left grid depicts the agent (red circle) visiting undiscovered areas (black cells). Black cells that enter its vision (magenta square) are discovered and colored white. The right grid shows the ground truth grid and the current calculated A* path (pink cells) the agent is following.
 </div>
-Example grids shown in the “AGENT EXPLORE” mode. The left grid depicts the agent (red circle) visiting undiscovered areas (black cells). Black cells that enter its vision (magenta square) are discovered and colored white. The right grid shows the ground truth grid and the current calculated A* path (pink cells) the agent is following.
 
 <!-- single pic -->
 <div class="row">
@@ -109,7 +123,33 @@ Example grids shown in the “AGENT EXPLORE” mode. The left grid depicts the a
 </div>
 
 After a couple months of work, we had pieces of systems, but had a difficult time integrating everything. Also, we found our stereo to point cloud pipeline was providing subpar results, affecting our mapping. We cobbled together a minimum working solution. Ultimately though, the team was unable to submit anything for the qualifying round, hence ending our attempt at competing.
+
 As the team lead, I thought much about how this happened after the fact, a post-mortem of sorts. The reality is I needed to reach out for assistance sooner. I will spare the nitty-gritty details, but I could have done a better job communicating with the competition staff about submitting our solution. They required our agent to be submitted via Docker, which makes complete sense for an asynchronous, simulation-based competition. However, we were also using Docker for our solution, and we ran into error after error when trying to combine with LAC’s Docker submission process. I eventually asked the staff for guidance and their response was very helpful and accommodating. But, it all happened too late and close to the deadline to submit. I definitely learned that there’s no harm in reaching out for a bit of help, and to also have a plan for what platforms we would be developing our code on. Our initial solution required Docker due to Ubuntu and Python version mismatches, so I should have been using LAC’s Dockerfile setups from the get-go.
 All that said, this was not the end of our solution package. I wanted to continue even after our competition run ended in order to get our algorithm running in some capacity. I find the idea of utilizing machine learning for an exploratory rover very interesting, and wanted to see this through.
 
 [The rest is still a work in progress]
+
+<!-- single -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/Nm5zaF2ERsY" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<!-- single -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/iuJ11P1QpLY" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<!-- single -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/opfbKCPIZDs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<!-- single -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/HqXGlzC3D2E" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
