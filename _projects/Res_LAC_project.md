@@ -66,8 +66,6 @@ With this new plan in hand, I began developing our code.
     Disparity map (left) and point cloud (right) generated from stereo image proc ROS package.
 </div>
 
-
-
 <!-- double pics centered -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -80,8 +78,6 @@ With this new plan in hand, I began developing our code.
 <div class="caption">
     Part of the graphical interface displaying the different possible modes programmed in the simulator (left). Example grid map shown in the “ASTAR” mode (right). It depicts a calculated A* path (pink cells) from a start location (red cell) to a goal location (green cell). Blue cells depict rock obstacles that must be avoided.
 </div>
-
-
 <!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -102,7 +98,6 @@ With this new plan in hand, I began developing our code.
     Example capture of the application in “AGENT EXPLORE” mode.
 </div>
 
-
 <!-- single pic -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -117,6 +112,82 @@ After a couple months of work, we had pieces of systems, but had a difficult tim
 
 As the team lead, I thought much about how this happened after the fact, a post-mortem of sorts. The reality is I needed to reach out for assistance sooner. I will spare the nitty-gritty details, but I could have done a better job communicating with the competition staff about submitting our solution. They required our agent to be submitted via Docker, which makes complete sense for an asynchronous, simulation-based competition. However, we were also using Docker for our solution, and we ran into error after error when trying to combine with LAC’s Docker submission process. I eventually asked the staff for guidance and their response was very helpful and accommodating. But, it all happened too late and close to the deadline to submit. I definitely learned that there’s no harm in reaching out for a bit of help, and to also have a plan for what platforms we would be developing our code on. Our initial solution required Docker due to Ubuntu and Python version mismatches, so I should have been using LAC’s Dockerfile setups from the get-go.
 All that said, this was not the end of our solution package. I wanted to continue even after our competition run ended in order to get our algorithm running in some capacity. I find the idea of utilizing machine learning for an exploratory rover very interesting, and wanted to see this through.
+
+The first thing I did after failing to meet the qualification deadline was fix our Docker setup. The below picture is a visualization of the new setup for use with the lunar simulator and the team’s source code.
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/009.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+I also explored more point cloud generation techniques in order to have more control over the input into our mapping package. Ideally, an improved point cloud would yield more mapping data. I started by trying to tune the parameters provided from ROS.
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/010.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Untuned (left column) and tuned (right) BM disparity images.
+</div>
+
+This process did not improve the point clouds very much. Part of the issue here touches on problems with the lunar environment itself. Low light levels, long shadows, and terrain that is hard to differentiate all culminate in errors in or lack of stereo matching (part of the process of turning a stereo pair into a 3D point cloud). Now this output is not actually too terrible. It is fairly dense with some voids here and there. However, note that the lunar lander, a part of the theoretical mission of this competition, is in view. This creates many distinct points that drastically helps stereo matching. When it is not in view, the disparity maps end up looking like the following:
+
+<!-- double pics centered -->
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/011.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/012.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+This output is not necessarily a bad thing. The colored disparity map shows data for stereo matches that have a high confidence level. My goal was for the output to be a dense map, in order to create a smooth point cloud, which in turn provides continuous grid mapping data. My hope was more data would improve the overall solution of the autonomous agent.
+
+I ended up solving this problem by using a different algorithm to produce a disparity map: semi-global block matching. This method also uses a smoothing filter, which helps create a dense map.
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/013.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Examples of the raw left front rover image (left column), the SGBM disparity map (middle column), and the SGBM with WLS filter disparity map (right column).
+</div>
+
+This technique produces a fairly smooth disparity map, but it has a large compute time. This was fine for the competition however, as it was simulation only. We were given limits on real time vs compute time.
+
+Also at this time, I started develop my own tools and scripts in order to compare different sets of parameters and create videos from data. After tuning, I had my finished stereo pair to point cloud pipeline. Since this was a bit of a custom process, I had to create my own ROS node to make this output.
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/014.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Snapshot of script output that creates a video array of the same sequence with different parameter values.
+</div>
+
+<!-- single pic -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Res_LAC/015.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Different snapshots of the raw left front rover image (left column), final disparity map output (middle column), and point cloud (right column, colored by depth).
+</div>
+
+
+
+
+
 
 [The rest is still a work in progress]
 
