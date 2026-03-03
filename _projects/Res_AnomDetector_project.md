@@ -4,7 +4,7 @@ title: "[WIP]Anomaly Detector Informed Learning"
 description: Description
 img: assets/img/9.jpg
 importance: 2
-category: Research
+category:
 ---
 
 Every project has a beautiful feature showcase page.

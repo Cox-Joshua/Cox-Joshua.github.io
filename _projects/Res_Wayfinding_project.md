@@ -4,7 +4,7 @@ title: "[WIP]Wayfinding"
 description: Description
 img: assets/img/9.jpg
 importance: 3
-category: Research
+category:
 ---
 
 Every project has a beautiful feature showcase page.
