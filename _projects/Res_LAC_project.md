@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "[WIP]Lunar Autonomy Challenge"
+title: "Lunar Autonomy Challenge"
 description: Competition to create an Autonomously Mapping Lunar Rover
 img: assets/img/projects/Res_LAC_project/999.png
 importance: 1
