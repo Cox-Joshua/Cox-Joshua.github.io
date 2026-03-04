@@ -114,8 +114,8 @@ ninja.data = [{
           description: "Description",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Res_AnomDetector_project/";
-            },},{id: "projects-wip-lunar-autonomy-challenge",
-          title: '[WIP]Lunar Autonomy Challenge',
+            },},{id: "projects-lunar-autonomy-challenge",
+          title: 'Lunar Autonomy Challenge',
           description: "Competition to create an Autonomously Mapping Lunar Rover",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Res_LAC_project/";
