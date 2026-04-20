@@ -26,9 +26,6 @@ Partway through this project, COVID-19 shut down schooling across the nation. It
         {% include figure.liquid path="assets/img/projects/ISS_Microg_project/2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Left: Typical lab bench for ECE 486. Right: Reaction wheel pendulum used for the final project of ECE 486.
-</div>
 
 <!-- big left | smol right -->
 <div class="row justify-content-sm-center">
@@ -39,16 +36,10 @@ Partway through this project, COVID-19 shut down schooling across the nation. It
         {% include figure.liquid path="assets/img/projects/ISS_Microg_project/4.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Left: Lab room for ME 461. Right: "Segbot" students learn to control throughout semester in ME 461.
-</div>
 
 <!-- single image -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/ISS_Microg_project/1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Illinois Space Society organization-wide photo.
 </div>
